@@ -1,0 +1,13 @@
+charliermarsh.ruff
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+enkia.tokyo-night
+esbenp.prettier-vscode
+github.copilot
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+pkief.material-icon-theme
+pkief.material-product-icons
+usernamehw.errorlens
