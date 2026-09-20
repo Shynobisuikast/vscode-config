@@ -2,10 +2,8 @@
   // ─────────────────────────────────────────────────────────────
   // WORKBENCH
   // ─────────────────────────────────────────────────────────────
-
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-
   "workbench.editor.showTabs": "single",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -13,25 +11,19 @@
   "workbench.editor.showTabIndex": true,
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.editorLargeFileConfirmation": 50,
-
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 16,
   "workbench.tree.expandMode": "singleClick",
-
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.colorTheme": "Tokyo Night",
-
   "workbench.activityBar.location": "top",
   "workbench.activityBar.compact": true,
-
   "workbench.statusBar.visible": false,
-
   // ─────────────────────────────────────────────────────────────
   // BETTER COMMENTS
   // ─────────────────────────────────────────────────────────────
-
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
   "better-comments.tags": [
@@ -81,128 +73,98 @@
       "italic": false
     }
   ],
-
   // ─────────────────────────────────────────────────────────────
   // EXPLORER
   // ─────────────────────────────────────────────────────────────
-
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.color": "#7AA2F7",
-
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.decorations.badges": false,
-
   // ─────────────────────────────────────────────────────────────
   // GIT
   // ─────────────────────────────────────────────────────────────
-
   "git.openRepositoryInParentFolders": "never",
-
   // ─────────────────────────────────────────────────────────────
   // EDITOR
   // ─────────────────────────────────────────────────────────────
-
   "editor.lineNumbers": "on",
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.wordWrap": "on",
-
   "editor.matchBrackets": "near",
   "editor.parameterHints.enabled": true,
   "editor.lightbulb.enabled": "onCode",
   "editor.hover.enabled": "on",
-
   "editor.showFoldingControls": "mouseover",
   "editor.guides.indentation": false,
-
   "editor.occurrencesHighlight": "singleFile",
   "editor.selectionHighlight": false,
-
   "editor.links": true,
   "editor.codeLens": false,
-
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-
   // ─────────────────────────────────────────────────────────────
   // EDITOR SPACING / MOTION
   // ─────────────────────────────────────────────────────────────
-
   "editor.padding.top": 8,
   "editor.padding.bottom": 8,
-
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
   "editor.mouseWheelZoom": true,
-
   // ─────────────────────────────────────────────────────────────
   // INTELLISENSE
   // ─────────────────────────────────────────────────────────────
-
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
     "strings": true
   },
-
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlineSuggest.enabled": true,
-
   // ─────────────────────────────────────────────────────────────
   // NAVIGATION
   // ─────────────────────────────────────────────────────────────
-
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.definitionLinkOpensInPeek": true,
-
   // ─────────────────────────────────────────────────────────────
   // TYPOGRAPHY
   // ─────────────────────────────────────────────────────────────
-
   "editor.fontFamily": "'Jetbrains Mono', 'Fira Code', monospace",
   "editor.fontSize": 16,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "editor.letterSpacing": 0.2,
-
   "editor.tabSize": 4,
   "editor.detectIndentation": false,
-
   // ─────────────────────────────────────────────────────────────
   // FILES
   // ─────────────────────────────────────────────────────────────
-
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.autoSave": "off",
-
   "files.exclude": {
     "**/__pycache__": true,
     "**/*.pyc": true
   },
-
   // ─────────────────────────────────────────────────────────────
   // SEARCH
   // ─────────────────────────────────────────────────────────────
-
   "search.decorations.badges": false,
   "search.decorations.colors": false,
-
   // ─────────────────────────────────────────────────────────────
   // TERMINAL
   // ─────────────────────────────────────────────────────────────
-
   "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "line",
@@ -211,24 +173,22 @@
   "terminal.integrated.hideScrollbars": true,
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.stickyScroll.enabled": false,
-
   // ─────────────────────────────────────────────────────────────
   // ERROR LENS
   // ─────────────────────────────────────────────────────────────
-
   "errorLens.enabled": true,
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
   "errorLens.addAnnotationTextPrefixes": true,
-
   // ─────────────────────────────────────────────────────────────
   // FORMATTERS
   // ─────────────────────────────────────────────────────────────
-
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
@@ -237,37 +197,28 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true
   },
-
   "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   // ─────────────────────────────────────────────────────────────
   // PYTHON
   // ─────────────────────────────────────────────────────────────
-
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
   "python.analysis.autoFormatStrings": true,
   "python.analysis.typeCheckingMode": "basic",
-
   // ─────────────────────────────────────────────────────────────
   // RUFF
   // ─────────────────────────────────────────────────────────────
-
   "ruff.enable": true,
   "ruff.showSyntaxErrors": true,
-
   // ─────────────────────────────────────────────────────────────
   // EMMET
   // ─────────────────────────────────────────────────────────────
-
   "emmet.triggerExpansionOnTab": true,
-
   // ─────────────────────────────────────────────────────────────
   // OTHER
   // ─────────────────────────────────────────────────────────────
-
   "claudeCode.preferredLocation": "panel",
   "telemetry.telemetryLevel": "off",
   "extensions.ignoreRecommendations": true,
